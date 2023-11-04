@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width,initial-scale=1,shrink-to-fit=no">
+    <script src="js/ab.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>حساب نسبة الغياب المسموح</title>
+</head>
+<body>
+    <h1>حساب نسبة الغياب المسموح في الجامعات والكليات</h1>
+       <label >عدد ساعات المقرر</label><input type="text" id="ch" required onkeypress='return event.charCode >= 48 && event.charCode <= 57' />
+       <label >النسبة المعتمدة في الكلية</label><input type="text" id="cp" required onkeypress='return event.charCode >= 48 && event.charCode <= 57' />%
+       
+       <button onclick="Calculate()">احسب</button>
+   
+    <section>
+        <p>عدد الغياب المسموح قبل الحرمان :</p>
+        <p id="result"></p>
+    </section>
+</body>
+</html>

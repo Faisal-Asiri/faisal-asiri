@@ -1,0 +1,27 @@
+body{
+    background-color: azure;
+    display: block;
+    text-align: center;
+}
+#result{
+    text-align: center;
+    color: darkgreen;
+    border:2px solid lightgreen;
+    background-color: antiquewhite;
+}
+h1{
+    color: rgb(78, 176, 237);
+}
+input{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+button{
+    background-color: aquamarine;
+    color: green;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
