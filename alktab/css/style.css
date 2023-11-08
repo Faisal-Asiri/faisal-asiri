@@ -1,0 +1,16 @@
+@font-face {
+    font-family: quran;
+    src: url(../fonts/HafsSmart_08.ttf);
+  }
+  p{
+    font-family: quran;
+   
+    display: inline-block;
+    font-size: 100%;
+    
+  }
+  body{
+    width: 100%;
+    margin: 5px;
+    padding: 10;
+  }
