@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Roboto:wght@100&display=swap');
+*{
+    
+        margin: 0; 
+        padding: 0; 
+        box-sizing: border-box; 
+        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        
+       
+}
+header{
+    clear: both;
+padding: 15px;
+background-color: black;
+color: white;
+text-align: center;
+background-image:linear-gradient(rgba(7, 7, 7, 0.5), rgba(85, 0, 255, 0.5)), url("../images/background.webp");
+opacity: 0.9;
+background-size: cover;
+background-repeat: no-repeat;
+padding-top: 10px;
+height: 150px;
+
+}
+nav{
+    padding: 10px;
+    padding-top: 25px;
+  
+}
+nav a{
+    clear: both;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(240, 92, 0);
+    
+}
+nav a:hover{
+    color: blue;
+    opacity: 0.8;
+}
+nav a:active{
+    color: red;
+}
+#aboutme p{
+    
+    
+  
+    font-size: larger;
+    
+    
+}
+#aboutme{
+    border-bottom: solid 1px black;
+    background: linear-gradient(rgba(7, 7, 7, 0.5), rgba(7, 7, 137, 0.5)), url("../images/abha.jpg");
+    background-size: cover;
+    height: 400px;
+    color: white;
+    text-align: center;
+    
+}
+#mypic{
+    margin-top: 2%;
+    height: 150px;
+    border-radius: 50%;
+    border:solid black 1px;
+    
+}
+h2{
+    clear: both;
+    text-align:left;
+    color:rgb(4, 4, 91);
+    padding-left: 10%;
+    background-image: linear-gradient(to right, rgb(255, 86, 1) , rgb(4, 4, 91));
+
+}
+
+#projects{
+    text-align: center;
+    border-bottom: solid 1px black;
+    background: linear-gradient(rgba(255, 89, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/projects.jpg");
+    background-size: cover;
+    height: 400px;
+    color: white; 
+    font-size: larger;
+    
+    
+}
+#projects img{
+    margin-top: 10%;
+    width: 200px;
+}
+#contactme{
+    text-align: center;
+    border-bottom: solid 1px black;
+    background: linear-gradient(rgba(255, 89, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/contact.png");
+    background-size: cover;
+    height: 400px;
+    color: white; 
+    font-size: larger;
+}
+#contactme img{
+    margin-top: 10%;
+    width: 200px;
+}
+a:hover{
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 720px) {
+    header{
+        clear: both;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    background-image:linear-gradient(rgba(7, 7, 7, 0.5), rgba(85, 0, 255, 0.5)), url("../images/background.webp");
+    opacity: 0.9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    height: 150px;
+    
+    }
+    nav{
+       
+        padding-top: 25px;
+        font-size: small;
+      
+    }
+ 
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
